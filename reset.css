@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+/* font cdn */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+fieldset,
+p,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+div,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: Noto Sans KR, sans-serif;
+    font-size: 1rem;
+    word-break: break-all;
+    color: #222;
+    -webkit-overflow-scrolling: touch;
+    box-sizing: border-box;
+}
+
+header,
+article,
+section,
+nav,
+aside,
+footer {
+    display: block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+input,
+select,
+button,
+textarea {
+    padding: 0;
+    vertical-align: middle;
+    box-sizing: border-box;
+    -o-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+i,
+em,
+address {
+    font-style: normal;
+}
+
+label,
+button,
+input[type=submit] {
+    cursor: pointer;
+    display: inline-block;
+}
+
+button {
+    background-color: transparent;
+    transition: all 0.2s ease;
+}
+
+a {
+    text-decoration: none;
+}
+
+a,
+input,
+button,
+textarea {
+    border: 0 none;
+    border-radius: 0;
+    font-family: Noto Sans KR, sans-serif;
+    font-size: 1rem;
+    color: #222;
+}
+
+a:active,
+button:active,
+input:focus {
+    outline: none;
+}
+
+legend,
+caption {
+    width: 0;
+    height: 0;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+    opacity: 0;
+}
+
+fieldset {
+    border: 0 none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+    text-align: center;
+    font-family: Noto Sans KR, sans-serif;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+figure {
+    text-align: left;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input {
+    height: 100%;
+    background: none;
+}
+
+/* 파이어폭스에서의 초기화 방법 */
+input[type=number] {
+    -moz-appearance: textfield;
+}
